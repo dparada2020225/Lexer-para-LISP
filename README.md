@@ -1,7 +1,7 @@
 # Lisp Lexer - Analizador Léxico de Expresiones LISP
 
 ## 📌 Descripción
-Este proyecto es un **analizador léxico (Lexer)** desarrollado en **Java** para analizar expresiones en **LISP**.
+Este proyecto es un **analizador léxico (Lexer)** desarrollado en **Java** para analizar expresiones en **LISP**. 
 Permite descomponer una expresión en tokens y verificar si los paréntesis están balanceados.
 
 ## 🚀 Características
@@ -37,6 +37,25 @@ Permite descomponer una expresión en tokens y verificar si los paréntesis est�
    ✅ Expresión correcta: los paréntesis están balanceados.
    🟡 Tokens: [(, +, 2, (, *, 3, 4, ), )]
    ```
+
+## 📝 Expresiones de Prueba
+Prueba el analizador con estas expresiones:
+
+### ✅ **Expresiones Correctas**
+```lisp
+(+ 2 (* 3 4))
+(- (/ 10 (+ 2 3)) (* 4 5))
+(define x 10)
+((lambda (x) (* x x)) 5)
+(begin (set! x 5) (set! y (+ x 2)) (* x y))
+```
+
+### ❌ **Expresiones Incorrectas**
+```lisp
+(+ 2 (* 3 4)
+(* (+ 1 2)) 3)
+) (+ 2 3) (
+```
 
 ## ✨ Autores
 - **Denil José Parada Cabrera - 24761**
