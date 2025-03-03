@@ -2,10 +2,14 @@
  * Universidad del Valle de Guatemala
  * Facultad de Ingeniería
  * Departamento de Ciencia de la Computación
- * Autores: Denil José Parada Cabrera - 24761, Joel Arodi
- * Fecha: [Coloca la fecha aquí]
+ * Autores: Denil José Parada Cabrera - 24761, Joel Josue Nerio Alonzo- 24253 Arodi
+ * Fecha: 3/02/2025
  * Descripción: Programa que realiza el análisis léxico (Lexer) de expresiones LISP.
  */
+
+ /* importante mencionar que esta clase su funcionalidad como tal es que convierte code Lisp en una lista de tokens, osea tokeniza la entrada
+osea un claro Ejemplo es : Entrada: "(+ 2 3)"
+Salida: ["(", "+", "2", "3", ")"]  */
 
  import java.util.ArrayList;
  import java.util.List;
