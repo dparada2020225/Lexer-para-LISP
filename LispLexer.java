@@ -85,7 +85,7 @@ Salida: ["(", "+", "2", "3", ")"]  */
       * @param expression La expresión LISP a tokenizar.
       * @return Lista de tokens extraídos de la expresión.
       */
-     public static List<String> tokenize(String expression) {
+     public static List<String> tokenize(String expression) { /*construccion de una parte segun (OpenIA, 2025) */
          List<String> tokens = new ArrayList<>();
          StringBuilder token = new StringBuilder();
          
