@@ -35,9 +35,9 @@ Salida: ["(", "+", "2", "3", ")"]  */
          Scanner scanner = new Scanner(System.in);
          while (true) {
              System.out.println("Ingrese una expresión LISP o escriba 'salir' para terminar:");
-             String input = scanner.nextLine().trim();
+             String input = scanner.nextLine().trim(); /*se guarda la respuesta */
              
-             if (input.equalsIgnoreCase("salir")) {
+             if (input.equalsIgnoreCase("salir")) {  /*ver si quiere salir o no */
                  System.out.println("Saliendo del programa...");
                  break;
              }
